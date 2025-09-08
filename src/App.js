@@ -10,6 +10,7 @@ import {
 } from '@mui/material';
 import AppRat from './Components/AppRat';
 import TechDebtReduction from './Components/TechDebtReduction';
+import { AIIndexWidget } from './Components/AIIndexWidget';
 import './style.css';
 
 export default function App() {
@@ -45,10 +46,11 @@ export default function App() {
       >
         {/* Spacer to push content below Top Bar */}
         <Toolbar />
+        <br/>
         <div className="filters">
         <div className="left"><div className="left-top"><TechDebtReduction/></div>
         <div className="left-middle"><AppRat /></div>
-        <div className="left-bottom">Bottom</div></div>
+        <div className="left-bottom"><AIIndexWidget/></div></div>
       <div className="center">Center</div>
       <div className="right">Right</div>
       
