@@ -48,7 +48,7 @@ export default function App() {
         {/* Spacer to push content below Top Bar */}
        
         <Toolbar />
-        
+        <div className="filters-container">   
         <div className="filters">
         <div className="left"><div className="left-top"><TechDebtReduction/></div>
         <div className="left-middle"><AppRat /></div>
@@ -64,7 +64,7 @@ export default function App() {
             
          
           
-          
+  </div>     
           
         </div>
       </Box>

@@ -56,6 +56,13 @@ body {
   justify-content: center;
   align-items: center;
 }
+.filters-container{
+  width: 100%;
+  background-color:#00205A;
+  padding: 0.5rem 1rem;
+  top: 0;
+  left: 0;
+}
 .topbar-container {
   position: fixed;
   
