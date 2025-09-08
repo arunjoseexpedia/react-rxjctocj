@@ -11,6 +11,7 @@ import {
 import AppRat from './Components/AppRat';
 import TechDebtReduction from './Components/TechDebtReduction';
 import { AIIndexWidget } from './Components/AIIndexWidget';
+import { VulnerabilitiesSection } from './Components/VulnerabilitiesSection';
 import './style.css';
 
 export default function App() {
@@ -51,8 +52,11 @@ export default function App() {
         <div className="left"><div className="left-top"><TechDebtReduction/></div>
         <div className="left-middle"><AppRat /></div>
         <div className="left-bottom"><AIIndexWidget/></div></div>
-      <div className="center">Center</div>
-      <div className="right">Right</div>
+      <div className="center"><div className="center-top"><VulnerabilitiesSection/></div>
+  <div className="center-middle">Middle Section</div>
+  <div className="center-bottom">Bottom Section</div></div>
+      <div className="right"><div className="right-top">Right Top</div>
+  <div className="right-bottom">Right Bottom</div></div>
       
            
         

@@ -25,21 +25,9 @@ body {
   align-items: center;
 }
 
-.center {
-  flex: 4; /* Largest width */
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.right {
-  flex: 2; /* Slightly more than left */
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
 .left-top {
   flex: 1; /* Some height */
   display: flex;
@@ -97,7 +85,24 @@ body {
   text-align: left;
   cursor: pointer;
 }
+.right {
+  flex: 2; /* Slightly more than left */
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Make sure it fills available vertical space */
+  gap: 10px; /* optional spacing */
+}
 
+.right-top,
+.right-bottom {
+  flex: 1; /* equal height */
+  border: 1px solid #ccc; /* optional, just to see boundaries */
+  padding: 10px;
+}
 .dropdown button:hover {
   background-color: #f2f2f2;
 }
@@ -150,7 +155,36 @@ body {
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
+.center {
+  flex: 4; /* Largest width */
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 10px; /* optional spacing between sections */
+}
 
+.center-top,
+.center-middle,
+.center-bottom {
+  border: 1px solid #ccc; /* just for visualization */
+  padding: 10px;
+}
+
+.center-top {
+  flex: 1; /* small */
+}
+
+.center-middle {
+  flex: 2; /* larger */
+}
+
+.center-bottom {
+  flex: 1; /* small */
+}
 .dropdown-item:hover {
   background-color: #f2f2f2;
 }
