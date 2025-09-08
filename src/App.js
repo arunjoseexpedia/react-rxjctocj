@@ -8,9 +8,8 @@ import {
   Toolbar,
   Typography,
 } from '@mui/material';
-import SearchIcon from '@mui/icons-material/Search';
-import { FaBars}  from 'react-icons/fa';
-import SideMenu from './SideMenu';
+import AppRat from './Components/AppRat';
+import TechDebtReduction from './Components/TechDebtReduction';
 import './style.css';
 
 export default function App() {
@@ -47,8 +46,8 @@ export default function App() {
         {/* Spacer to push content below Top Bar */}
         <Toolbar />
         <div className="filters">
-        <div className="left"><div className="left-top">Top</div>
-        <div className="left-middle">Middle</div>
+        <div className="left"><div className="left-top"><TechDebtReduction/></div>
+        <div className="left-middle"><AppRat /></div>
         <div className="left-bottom">Bottom</div></div>
       <div className="center">Center</div>
       <div className="right">Right</div>
