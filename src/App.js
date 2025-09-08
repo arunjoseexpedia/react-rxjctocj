@@ -39,15 +39,16 @@ export default function App() {
       >
          <div className="topbar-container">
   <div className="topbar">
-    <h3>SAP App Dev Scorecard</h3>
+    <h4>SAP App Dev Scorecard</h4>
     <div className="user-menu">
       <span className="username">Arun</span>
     </div>
   </div>
 </div>
         {/* Spacer to push content below Top Bar */}
+       
         <Toolbar />
-        <br/>
+        <Toolbar />
         <div className="filters">
         <div className="left"><div className="left-top"><TechDebtReduction/></div>
         <div className="left-middle"><AppRat /></div>
