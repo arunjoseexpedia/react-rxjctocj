@@ -2,13 +2,15 @@ import { Box, Paper, Typography, Grid } from '@mui/material';
 
 export const VulnerabilitiesSection = () => {
 	return (
-		<Paper elevation={4} sx={{ p: 2, bgcolor: 'background.paper' }} >
+		<Grid container sx={{ width: '100%', height: '100%',padding:'.4%' }}>
+		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
+		<Paper elevation={4} sx={{ p: 3, bgcolor: 'background.paper' }} >
 			<Typography variant='h4' gutterBottom>
 				Vulnerabilities
 			</Typography>
 
-			<Grid container spacing={2}>
-				<Grid item xs={6}>
+			<Grid container spacing={2} >
+				<Grid item xs={6} >
 					<Typography variant='body1' color='text.secondary'>
 						Custom Code Vulnerabilities
 					</Typography>
@@ -26,7 +28,7 @@ export const VulnerabilitiesSection = () => {
 					</Box>
 				</Grid>
 
-				<Grid item xs={6}>
+				<Grid item xs={6} >
 					<Typography variant='body1' color='text.secondary'>
 						SAP Portal Vulnerabilities
 					</Typography>
@@ -47,5 +49,7 @@ export const VulnerabilitiesSection = () => {
 				</Grid>
 			</Grid>
 		</Paper>
+		</Grid>
+		</Grid>
 	);
 };

@@ -11,7 +11,9 @@ export const ProductRoadmapSection = () => {
 	];
 
 	return (
-		<Paper >
+		<Grid container sx={{ width: '100%', height: '100%',padding:'.4%'  }}>
+		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
+		<Paper elevation={4} sx={{ p: 5, bgcolor: 'background.paper' }} >
 			<Typography variant='h6' gutterBottom>
 				Product EOL/Roadmap
 			</Typography>
@@ -30,5 +32,7 @@ export const ProductRoadmapSection = () => {
 				))}
 			</Grid>
 		</Paper>
+		</Grid>
+		</Grid>
 	);
 };

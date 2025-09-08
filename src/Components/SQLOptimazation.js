@@ -1,8 +1,10 @@
-import { Box, Paper, Typography } from '@mui/material';
+import { Box, Paper, Typography,Grid } from '@mui/material';
 
 export const SQLOptimization = () => {
 	return (
-		<Paper>
+		<Grid container sx={{ width: '100%', height: '100%',padding:'.4%' }}>
+		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
+		<Paper sx={{ p: 2, bgcolor: 'background.paper' }}>
 			<Typography variant='h6' gutterBottom>
 				Expensive SQL Optimization
 			</Typography>
@@ -58,5 +60,7 @@ export const SQLOptimization = () => {
 				</Typography>
 			</Box>
 		</Paper>
+		</Grid>
+		</Grid>
 	);
 };
