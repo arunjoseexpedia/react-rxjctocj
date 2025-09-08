@@ -15,7 +15,30 @@ body {
 }
 .filters {
   display: flex;
-  justify-content: space-evenly;
+  height: 100vh;
+}
+.left {
+  flex: 1; /* Smallest width */
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  flex: 4; /* Largest width */
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  flex: 2; /* Slightly more than left */
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 .dropdown {
@@ -27,7 +50,6 @@ body {
   color: black;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  overflow: hidden;
   min-width: 120px;
   z-index: 10;
 }
@@ -37,6 +59,12 @@ body {
 .user-menu {
   position: relative;
   cursor: pointer;
+  display: flex;
+  justify-content: center; /* horizontal centering */
+  align-items: center;
+  height: 80px;
+  width:80px;
+  border:1px solid #ccc;
 }
 
 .username {
@@ -76,15 +104,25 @@ body {
   padding: 0.5rem;
   font-size: 1rem;
 }
+.place-select {
+  color: gray; /* default color */
+}
+
+/* When a value is selected, change the text color */
+.place-select:valid {
+  color: black;
+}
 .dropdown-menu {
   position: absolute;
   top: 100%;
   left: 0;
+  height:200px;
   width: 100%;
   background: white;
   border: 1px solid #ddd;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   z-index: 10;
+  overflow: scroll;
   border-radius: 4px;
   margin-top: 4px;
 }
