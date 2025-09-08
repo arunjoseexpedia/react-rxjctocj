@@ -12,7 +12,11 @@ import AppRat from './Components/AppRat';
 import TechDebtReduction from './Components/TechDebtReduction';
 import { AIIndexWidget } from './Components/AIIndexWidget';
 import { VulnerabilitiesSection } from './Components/VulnerabilitiesSection';
+import { SQLOptimization } from './Components/SQLOptimazation';
+import { ProductRoadmapSection } from './Components/ProductRoadmapSection';
 import './style.css';
+import { OperationsMetricsSection } from './Components/OperationsMetricsSection';
+import { ServiceRequestSection } from './Components/ServiceRequestSection';
 
 export default function App() {
   
@@ -53,10 +57,10 @@ export default function App() {
         <div className="left-middle"><AppRat /></div>
         <div className="left-bottom"><AIIndexWidget/></div></div>
       <div className="center"><div className="center-top"><VulnerabilitiesSection/></div>
-  <div className="center-middle">Middle Section</div>
-  <div className="center-bottom">Bottom Section</div></div>
-      <div className="right"><div className="right-top">Right Top</div>
-  <div className="right-bottom">Right Bottom</div></div>
+  <div className="center-middle"><SQLOptimization /></div>
+  <div className="center-bottom"><ProductRoadmapSection/></div></div>
+      <div className="right"><div className="right-top"><OperationsMetricsSection/></div>
+  <div className="right-bottom"><ServiceRequestSection/></div></div>
       
            
         
