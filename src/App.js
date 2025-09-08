@@ -24,25 +24,20 @@ export default function App() {
   const drawerWidth = 240;
 
   return (
-    <Box sx={{ display: 'flex' }}>
+    <Box sx={{ display: 'flex' }} >
       {/* Adds consistent styling for MUI */}
       <CssBaseline />
      
 
-      {/* Top Bar */}
-      <AppBar
-        className=".app-header"
-        position="fixed"
-        sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}
-      >
-        <Toolbar className="topbar">
-         <h3>SAP App Dev Scorecard</h3>
-          <div className="user-menu">
-            <span className="username">Arun </span>
-            
-          </div>
-        </Toolbar>{' '}
-      </AppBar>
+   
+      <div className="topbar-container">
+  <div className="topbar">
+    <h3>SAP App Dev Scorecard</h3>
+    <div className="user-menu">
+      <span className="username">Arun</span>
+    </div>
+  </div>
+</div>
 
      
       <Box 
