@@ -4,7 +4,7 @@ const TechDebtReduction = () => {
 	return (
 		<Grid item xs={12} sx={{ height: '100%' }}>
 			<Paper sx={{ p: 7,bgcolor: '#08498D' }}>
-				<Typography variant='h6' gutterBottom sx={{ color: '#fff' }}>
+				<Typography variant='h6' gutterBottom sx={{ color: '#fff',fontWeight: 900 }}>
 					Tech Debt Reduction
 				</Typography>
 				<Grid container >
