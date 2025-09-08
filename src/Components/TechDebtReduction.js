@@ -9,7 +9,7 @@ const TechDebtReduction = () => {
 				</Typography>
 				<Grid container >
 					<Grid item xs={12}>
-						<Typography variant='h2' color='success.main' sx={{textAlign:'center'}}>
+						<Typography variant='h2' sx={{textAlign:'center',color:'#CFD8DC'}}>
 							25%
 						</Typography>
 						

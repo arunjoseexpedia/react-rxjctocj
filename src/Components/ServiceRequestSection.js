@@ -11,22 +11,22 @@ export const ServiceRequestSection = () => {
 
 			<Grid container spacing={2}>
 				<Grid item xs={4}>
-					<Typography variant='h4' color='warning.main'>
+					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
 						9873
 					</Typography>
-					<Typography variant='body2'>Processed</Typography>
+					<Typography variant='body2' sx={{color: '#B0BEC5'}}>Processed</Typography>
 				</Grid>
 				<Grid item xs={4}>
-					<Typography variant='h4' color='warning.main'>
+					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
 						98
 					</Typography>
-					<Typography variant='body2'>In-Progress</Typography>
+					<Typography variant='body2' sx={{color: '#B0BEC5'}}>In-Progress</Typography>
 				</Grid>
 				<Grid item xs={4}>
-					<Typography variant='h4' color='warning.main'>
+					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
 						57%
 					</Typography>
-					<Typography variant='body2'>% Completed</Typography>
+					<Typography variant='body2' sx={{color: '#B0BEC5'}}>% Completed</Typography>
 				</Grid>
 			</Grid>
 		</Paper>

@@ -117,7 +117,7 @@ body {
 }
 .right {
   height: 100vh;
-  border: 2px solid black;
+  
   flex: 2; /* Smallest width */
   background-color:#00205A;
   display: flex;

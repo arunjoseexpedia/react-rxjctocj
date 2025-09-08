@@ -21,11 +21,11 @@ export const ProductRoadmapSection = () => {
 			<Grid container spacing={2}>
 				{roadmapItems.map((item, index) => (
 					<Grid item xs={2} key={index}>
-						<Typography variant='body1'>{item.name}</Typography>
-						<Typography variant='h6' color='warning.main'>
+						<Typography variant='body1' sx={{color: '#B0BEC5'}}>{item.name}</Typography>
+						<Typography variant='h6' sx={{ color: '#CFD8DC' }}>
 							{item.year}
 						</Typography>
-						<Typography variant='body2' color='success.main'>
+						<Typography variant='body2' sx={{color: '#B0BEC5'}}>
 							{item.type}
 						</Typography>
 					</Grid>

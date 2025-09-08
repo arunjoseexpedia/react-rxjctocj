@@ -13,49 +13,49 @@ export const SQLOptimization = () => {
 				sx={{ display: 'flex', justifyContent: 'space-between', mb: 2, gap: 2 }}
 			>
 				<Box>
-					<Typography variant='h4' color='primary'>
+					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
 						64
 					</Typography>
-					<Typography variant='body2'>Queries Analyzed</Typography>
+					<Typography variant='body2' sx={{color: '#B0BEC5'}}>Queries Analyzed</Typography>
 				</Box>
 				<Box>
-					<Typography variant='h4' color='primary'>
+					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
 						38
 					</Typography>
-					<Typography variant='body2'>Queries Dispositioned</Typography>
+					<Typography variant='body2' sx={{color: '#B0BEC5'}}>Queries Dispositioned</Typography>
 				</Box>
 				<Box>
-					<Typography variant='h4' color='primary'>
+					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
 						26
 					</Typography>
-					<Typography variant='body2'>In Progress</Typography>
+					<Typography variant='body2' sx={{color: '#B0BEC5'}}>In Progress</Typography>
 				</Box>
 				<Box>
-					<Typography variant='h4' color='primary'>
+					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
 						13
 					</Typography>
-					<Typography variant='body2'>
+					<Typography variant='body2' sx={{color: '#B0BEC5'}}>
 						High Memory/time Intensive queries optimized so far
 					</Typography>
 				</Box>
 			</Box>
 
 			<Box >
-				<Typography variant='h4' color='primary'>
+				<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
 					40 K
 				</Typography>
-				<Typography variant='body2'>Memory Usage Reduction/day</Typography>
-				<Typography variant='body2' sx={{ color: 'gray' }}>
+				<Typography variant='body2' sx={{color: '#B0BEC5'}}>Memory Usage Reduction/day</Typography>
+				<Typography variant='body2' sx={{color: '#B0BEC5'}}>
 					GB
 				</Typography>
 			</Box>
 
 			<Box >
-				<Typography variant='h6' color='primary'>
+				<Typography variant='h6' sx={{ color: '#CFD8DC' }}>
 					800 K
 				</Typography>
-				<Typography variant='body2'>Execution Time Reduction/day</Typography>
-				<Typography variant='body2' sx={{ color: 'gray' }}>
+				<Typography variant='body2' sx={{color: '#B0BEC5'}}>Execution Time Reduction/day</Typography>
+				<Typography variant='body2' sx={{color: '#B0BEC5'}}>
 					Seconds
 				</Typography>
 			</Box>

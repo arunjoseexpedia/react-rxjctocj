@@ -9,22 +9,22 @@ const AppRat = () => {
 				</Typography>
 				<Grid container spacing={1}>
 					<Grid item xs={12}>
-						<Typography variant='h5' color='success.main'>
+						<Typography variant='h5' sx={{ color: '#CFD8DC' }}>
 							220K
 						</Typography>
-						<Typography variant='body2'>Dollars savings</Typography>
+						<Typography variant='body2' sx={{color: '#B0BEC5'}}>Dollars savings</Typography>
 					</Grid>
 					<Grid item xs={12}>
-						<Typography variant='h5' color='success.main'>
+						<Typography variant='h5' sx={{ color: '#CFD8DC' }}>
 							120k
 						</Typography>
-						<Typography variant='body2'>SAP Mobile Platform</Typography>
+						<Typography variant='body2' sx={{color: '#B0BEC5'}}>SAP Mobile Platform</Typography>
 					</Grid>
 					<Grid item xs={12}>
-						<Typography variant='h5' color='success.main'>
+						<Typography variant='h5' sx={{ color: '#CFD8DC' }}>
 							100k
 						</Typography>
-						<Typography variant='body2'>SAP CE</Typography>
+						<Typography variant='body2' sx={{color: '#B0BEC5'}}>SAP CE</Typography>
 					</Grid>
 				</Grid>
 			</Paper>
