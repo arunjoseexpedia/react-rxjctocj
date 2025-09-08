@@ -2,7 +2,9 @@ import { Box, Paper, Typography, Grid } from '@mui/material';
 
 export const ServiceRequestSection = () => {
 	return (
-		<Paper sx={{ p: 2, height: '100%' }}>
+		<Grid container sx={{ width: '100%', height: '100%',padding:'.7%' }}>
+		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
+		<Paper elevation={4} sx={{ p: 3, bgcolor: 'background.paper',height: '100%' }}>
 			<Typography variant='h6' gutterBottom>
 				Service Now Request
 			</Typography>
@@ -28,5 +30,7 @@ export const ServiceRequestSection = () => {
 				</Grid>
 			</Grid>
 		</Paper>
+		</Grid>
+		</Grid>
 	);
 };

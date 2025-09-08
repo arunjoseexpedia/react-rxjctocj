@@ -116,22 +116,30 @@ body {
   cursor: pointer;
 }
 .right {
+  height: 100vh;
+  border: 2px solid black;
+  flex: 2; /* Smallest width */
   background-color:#00205A;
-  flex: 2; /* Slightly more than left */
-  display: flex;
-  justify-content: center;
-  align-items: center;
   display: flex;
   flex-direction: column;
-  height: 100%; /* Make sure it fills available vertical space */
-  gap: 10px; /* optional spacing */
+  justify-content: center;
+  align-items: center; /* Make sure it fills available vertical space */
+   /* optional spacing */
 }
 
-.right-top,
+.right-top{
+  flex:1;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
 .right-bottom {
-  flex: 1; /* equal height */
-  /* optional, just to see boundaries */
-  
+  flex: 1;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  width:100%;
 }
 
 .topbar {
@@ -152,8 +160,7 @@ body {
 
 
 .center {
-  border:2px solid black;
-  background-color:#00205A;
+   background-color:#00205A;
   flex: 4; /* Largest width */
    display: flex;
   justify-content: center;
