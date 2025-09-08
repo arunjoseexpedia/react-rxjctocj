@@ -30,7 +30,14 @@ export default function App() {
      
 
    
-      <div className="topbar-container">
+     
+
+     
+      <Box 
+        component="main"
+        sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
+      >
+         <div className="topbar-container">
   <div className="topbar">
     <h3>SAP App Dev Scorecard</h3>
     <div className="user-menu">
@@ -38,12 +45,6 @@ export default function App() {
     </div>
   </div>
 </div>
-
-     
-      <Box 
-        component="main"
-        sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
-      >
         {/* Spacer to push content below Top Bar */}
         <Toolbar />
         <br/>
