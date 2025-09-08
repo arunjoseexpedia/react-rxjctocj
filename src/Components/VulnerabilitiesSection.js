@@ -4,8 +4,8 @@ export const VulnerabilitiesSection = () => {
 	return (
 		<Grid container sx={{ width: '100%', height: '100%',padding:'.4%' }}>
 		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
-		<Paper elevation={4} sx={{ p: 3, bgcolor: 'background.paper' }} >
-			<Typography variant='h4' gutterBottom>
+		<Paper elevation={4} sx={{ p: 3, bgcolor: '#08498D' }} >
+			<Typography variant='h6' gutterBottom sx={{ color: '#fff' }}>
 				Vulnerabilities
 			</Typography>
 

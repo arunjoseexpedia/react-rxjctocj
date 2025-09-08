@@ -4,8 +4,8 @@ export const ServiceRequestSection = () => {
 	return (
 		<Grid container sx={{ width: '100%', height: '100%',padding:'.7%',bgColor: '#08498D' }}>
 		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
-		<Paper elevation={4} sx={{ p: 3, bgcolor: 'background.paper',height: '100%' }}>
-			<Typography variant='h6' gutterBottom>
+		<Paper elevation={4} sx={{ p: 3, bgcolor: '#08498D',height: '100%' }}>
+			<Typography variant='h6' gutterBottom sx={{ color: '#fff' }}>
 				Service Now Request
 			</Typography>
 

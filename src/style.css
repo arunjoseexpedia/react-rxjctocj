@@ -133,6 +133,7 @@ body {
   justify-content: center;
   align-items: center;
   width:100%;
+  background-color: #00205A;
 }
 .right-bottom {
   flex: 1;
@@ -140,6 +141,7 @@ body {
   justify-content: center;
   align-items: center;
   width:100%;
+  background-color: #00205A;
 }
 
 .topbar {
@@ -177,6 +179,7 @@ body {
   justify-content: center;
   align-items: center;
   width:100%;
+  background-color: #00205A;
   
 }
 .center-middle{
@@ -185,6 +188,7 @@ body {
   justify-content: center;
   align-items: center;
   width:100%;
+  background-color: #00205A;
  
 }
 .center-bottom {
@@ -193,6 +197,7 @@ body {
   justify-content: center;
   align-items: center;
   width:100%;
+  background-color: #00205A;
   
   
 }

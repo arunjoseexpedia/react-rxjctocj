@@ -3,8 +3,8 @@ import { Grid, Paper, Typography } from '@mui/material';
 const AppRat = () => {
 	return (
 		<Grid item xs={12} sx={{ height: '100%' }}>
-			<Paper sx={{ p: 3 }}>
-				<Typography variant='h6' gutterBottom sx={{ color: '#00ffff' }}>
+			<Paper sx={{ p: 3,bgcolor: '#08498D' }}>
+				<Typography variant='h6' gutterBottom  sx={{ color: '#fff' }} >
 					App Rat
 				</Typography>
 				<Grid container spacing={1}>

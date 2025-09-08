@@ -39,7 +39,7 @@ export default function App() {
       >
          <div className="topbar-container">
   <div className="topbar">
-    <h4>SAP App Dev Scorecard</h4>
+    <h2>SAP App Dev Scorecard</h2>
     <div className="user-menu">
       <span className="username">Arun</span>
     </div>
