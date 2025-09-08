@@ -24,7 +24,7 @@ export default function App() {
   const drawerWidth = 240;
 
   return (
-    <Box sx={{ display: 'flex' }} >
+    <Box sx={{ display: 'flex', width: '100%', height: '100%', overflowX: 'hidden' }} >
       {/* Adds consistent styling for MUI */}
       <CssBaseline />
      
@@ -35,7 +35,7 @@ export default function App() {
      
       <Box 
         component="main"
-        sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
+        sx={{ flexGrow: 1, bgcolor: 'background.default',width: '100%' }}
       >
          <div className="topbar-container">
   <div className="topbar">
