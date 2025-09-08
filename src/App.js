@@ -40,16 +40,19 @@ export default function App() {
       </AppBar>
 
      
-      <Box
+      <Box 
         component="main"
         sx={{ flexGrow: 1, bgcolor: 'background.default', p: 3 }}
       >
         {/* Spacer to push content below Top Bar */}
-       
+        <Toolbar />
         <div className="filters">
-        <div className="left">Left</div>
+        <div className="left"><div className="left-top">Top</div>
+        <div className="left-middle">Middle</div>
+        <div className="left-bottom">Bottom</div></div>
       <div className="center">Center</div>
       <div className="right">Right</div>
+      
            
         
             
