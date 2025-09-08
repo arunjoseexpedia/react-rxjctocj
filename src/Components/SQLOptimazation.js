@@ -2,7 +2,7 @@ import { Box, Paper, Typography } from '@mui/material';
 
 export const SQLOptimization = () => {
 	return (
-		<Paper sx={{ p: 2, height: '100%' }}>
+		<Paper>
 			<Typography variant='h6' gutterBottom>
 				Expensive SQL Optimization
 			</Typography>
@@ -38,7 +38,7 @@ export const SQLOptimization = () => {
 				</Box>
 			</Box>
 
-			<Box sx={{ mt: 2 }}>
+			<Box >
 				<Typography variant='h4' color='primary'>
 					40 K
 				</Typography>
@@ -48,8 +48,8 @@ export const SQLOptimization = () => {
 				</Typography>
 			</Box>
 
-			<Box sx={{ mt: 2 }}>
-				<Typography variant='h4' color='primary'>
+			<Box >
+				<Typography variant='h6' color='primary'>
 					800 K
 				</Typography>
 				<Typography variant='body2'>Execution Time Reduction/day</Typography>

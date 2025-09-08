@@ -48,7 +48,7 @@ export default function App() {
         {/* Spacer to push content below Top Bar */}
        
         <Toolbar />
-        <Toolbar />
+        
         <div className="filters">
         <div className="left"><div className="left-top"><TechDebtReduction/></div>
         <div className="left-middle"><AppRat /></div>

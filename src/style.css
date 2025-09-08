@@ -14,8 +14,10 @@ body {
 
 .filters {
   display: flex;
+  margin-top: 5%;
   height: 100vh;
   width: 100%;
+  border:5px solid black;
 }
 .left {
   
@@ -52,6 +54,7 @@ body {
 }
 .topbar-container {
   position: fixed;
+  border:5px solid black;
   background-color:#00205A;
   top: 0;
   left: 0;
@@ -64,6 +67,7 @@ body {
 
 .topbar {
   display: flex;
+  
   background-color: #08498D;
   justify-content: space-between;
   align-items: center;
@@ -114,8 +118,8 @@ body {
 .right-top,
 .right-bottom {
   flex: 1; /* equal height */
-  border: 1px solid #ccc; /* optional, just to see boundaries */
-  padding: 10px;
+  /* optional, just to see boundaries */
+  
 }
 
 .topbar {

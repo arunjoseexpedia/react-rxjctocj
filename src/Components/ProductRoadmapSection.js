@@ -11,7 +11,7 @@ export const ProductRoadmapSection = () => {
 	];
 
 	return (
-		<Paper sx={{ p: 2, height: '100%' }}>
+		<Paper >
 			<Typography variant='h6' gutterBottom>
 				Product EOL/Roadmap
 			</Typography>

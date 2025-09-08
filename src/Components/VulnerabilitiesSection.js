@@ -2,7 +2,7 @@ import { Box, Paper, Typography, Grid } from '@mui/material';
 
 export const VulnerabilitiesSection = () => {
 	return (
-		<Paper sx={{ p: 2, height: '100%' }}>
+		<Paper >
 			<Typography variant='h6' gutterBottom>
 				Vulnerabilities
 			</Typography>
@@ -13,13 +13,13 @@ export const VulnerabilitiesSection = () => {
 						Custom Code Vulnerabilities
 					</Typography>
 					<Box sx={{ mt: 1 }}>
-						<Typography variant='h4' color='warning.main'>
+						<Typography variant='h5' color='warning.main'>
 							11000
 						</Typography>
 						<Typography variant='body2'>Analyzed</Typography>
 					</Box>
 					<Box sx={{ mt: 1 }}>
-						<Typography variant='h4' color='warning.main'>
+						<Typography variant='h5' color='warning.main'>
 							2000
 						</Typography>
 						<Typography variant='body2'>Disposition/Remediated</Typography>
@@ -31,7 +31,7 @@ export const VulnerabilitiesSection = () => {
 						SAP Portal Vulnerabilities
 					</Typography>
 					<Box sx={{ mt: 1 }}>
-						<Typography variant='h4' color='warning.main'>
+						<Typography variant='h5' color='warning.main'>
 							125
 						</Typography>
 						<Typography variant='body2'>
@@ -39,7 +39,7 @@ export const VulnerabilitiesSection = () => {
 						</Typography>
 					</Box>
 					<Box sx={{ mt: 1 }}>
-						<Typography variant='h4' color='warning.main'>
+						<Typography variant='h5' color='warning.main'>
 							5
 						</Typography>
 						<Typography variant='body2'>Remaining (Low)</Typography>
