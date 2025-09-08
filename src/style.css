@@ -43,7 +43,6 @@ body {
 }
 .left-top {
   flex: 1; /* Some height */
-  background-color: #ff6392;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,7 +50,6 @@ body {
 
 .left-middle {
   flex: 2; /* Little more height */
-  background-color: #ff85a1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +57,6 @@ body {
 
 .left-bottom {
   flex: 1; /* Little height */
-  background-color: #ffa3b1;
   display: flex;
   justify-content: center;
   align-items: center;
