@@ -7,13 +7,21 @@ export const AIIndexWidget = () => {
 				<Typography variant='h6' gutterBottom sx={{ color: '#00ffff' }}>
 					AI Index
 				</Typography>
+				<Grid container spacing={1}>
+					<Grid item xs={12}>
 				<Typography variant='h4' sx={{ color: '#00ffff', mb: 1 }}>
 					0.4 MM
 				</Typography>
+				</Grid>
+					<Grid item xs={12}>
 				<Typography variant='body2' color='success.main'>
 					Savings
 				</Typography>
+				</Grid>
+				<Grid item xs={12}>
 				<Typography variant='body2'>AI Index</Typography>
+				</Grid>
+				</Grid>
 			</Paper>
 		</Grid>
 	);

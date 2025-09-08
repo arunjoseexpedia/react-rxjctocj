@@ -2,7 +2,7 @@ import { Box, Paper, Typography, Grid } from '@mui/material';
 
 export const OperationsMetricsSection = () => {
 	return (
-		<Paper sx={{ p: 2, height: '100%' }}>
+		<Paper >
 			<Typography variant='h6' gutterBottom>
 				Operations Metrics
 			</Typography>

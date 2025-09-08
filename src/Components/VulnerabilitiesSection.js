@@ -2,8 +2,8 @@ import { Box, Paper, Typography, Grid } from '@mui/material';
 
 export const VulnerabilitiesSection = () => {
 	return (
-		<Paper >
-			<Typography variant='h6' gutterBottom>
+		<Paper elevation={4} sx={{ p: 2, bgcolor: 'background.paper' }} >
+			<Typography variant='h4' gutterBottom>
 				Vulnerabilities
 			</Typography>
 
