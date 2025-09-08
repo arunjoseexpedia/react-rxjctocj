@@ -21,7 +21,8 @@ body {
   
 }
 .left {
-  border:2px solid black;
+  
+  height: 100vh;
   flex: 1; /* Smallest width */
   background-color:#00205A;
   display: flex;
@@ -34,7 +35,7 @@ body {
 
 
 .left-top {
-  border:2px solid green;
+  
   flex: 1; /* Some height */
   display: flex;
   justify-content: center;
@@ -42,7 +43,7 @@ body {
 }
 
 .left-middle {
-  border:2px solid green;
+  
   flex: 1; /* Little more height */
   display: flex;
   justify-content: center;
@@ -52,7 +53,7 @@ body {
 .left-bottom {
   flex: 1; /* Little height */
   display: flex;
-  border:2px solid green;
+  
   justify-content: center;
   align-items: center;
 }

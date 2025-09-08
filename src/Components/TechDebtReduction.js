@@ -2,8 +2,8 @@ import { Grid, Paper, Typography } from '@mui/material';
 
 const TechDebtReduction = () => {
 	return (
-		<Grid item xs={12}>
-			<Paper sx={{ p: 2 }}>
+		<Grid item xs={12} sx={{ height: '100%' }}>
+			<Paper sx={{ p: 7 }}>
 				<Typography variant='h5' gutterBottom sx={{ color: '#00ffff' }}>
 					Tech Debt Reduction
 				</Typography>

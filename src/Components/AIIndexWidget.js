@@ -2,8 +2,8 @@ import { Grid, Paper, Typography } from '@mui/material';
 
 export const AIIndexWidget = () => {
 	return (
-		<Grid item xs={12}>
-			<Paper sx={{ p: 2 }}>
+		<Grid item xs={12} sx={{ height: '100%' }}>
+			<Paper sx={{ p: 5 }}>
 				<Typography variant='h6' gutterBottom sx={{ color: '#00ffff' }}>
 					AI Index
 				</Typography>
