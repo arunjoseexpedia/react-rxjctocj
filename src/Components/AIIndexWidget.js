@@ -9,7 +9,14 @@ export const AIIndexWidget = () => {
 				</Typography>
 				<Grid container spacing={1}>
 					<Grid item xs={12}>
-				<Typography variant='h4' sx={{ color: '#CFD8DC', mb: 1 }}>
+				<Typography variant='h4'  sx={{
+		color: '#CFD8DC',
+		transition: 'all 0.3s ease',
+		'&:hover': {
+			fontSize: '2.5rem',
+			cursor:'pointer',
+			color:'white' // slightly bigger on hover
+		}}}>
 					0.4 MM
 				</Typography>
 				</Grid>
