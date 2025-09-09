@@ -3,43 +3,52 @@ import { Grid, Paper, Typography } from '@mui/material';
 const AppRat = () => {
 	return (
 		<Grid item xs={12} sx={{ height: '100%' }}>
-			<Paper sx={{
-    padding: 2,
-    backgroundColor: '#ffff',
-    borderRadius: 1.5,
-	height: '98%',
+			<Paper elevation={6}  sx={{
+    padding: 3,
+    backgroundColor: 'white',
+    borderRadius: 2,
+	height: '97%',
 	width:'100%',
-	textAlign:'center' }}>
-				<Typography variant='h6' gutterBottom  sx={{ color: '#0033A0',fontWeight: 900 }} >
+	textAlign:'center'
+  }}>
+				<Typography variant='h6' gutterBottom sx={{ color: '#0033A0',width:'190px',fontWeight: 900 }}>
 					App Rat
 				</Typography>
-				<Grid container spacing={1} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
+				<Grid container style={{justifyContent:'center',alignItems:'center'}} >
 					<Grid item xs={12}>
-						<Typography variant='h5'  sx={{
-		color: '#222222',
-		transition: 'all 0.3s ease',
-		'&:hover': {
-			fontSize: '2.5rem',
-			cursor:'pointer',
-			color:'grey' // slightly bigger on hover
-		}}}>
-							220K
+						<Typography variant='h6' sx={{textAlign:'center',color:'#222222'}}>
+						<center>241 K</center>	
 						</Typography>
-						<Typography variant='body2' sx={{color: '#222222'}}>Dollars savings</Typography>
+						<Typography variant='body2' sx={{color: '#222222'}}>
+					Dollar Savings
+				</Typography>
+						</Grid>
 					</Grid>
+					<Grid container style={{justifyContent:'center',alignItems:'center'}} >
 					<Grid item xs={12}>
-						<Typography variant='h5' sx={{ color: '#222222' }}>
-							120k
+					
+						<Typography variant='h6' sx={{textAlign:'center',color:'#222222'}}>
+						<center>110 K</center>	
 						</Typography>
-						<Typography variant='body2' sx={{color: '#222222'}}>SAP Mobile Platform</Typography>
+						<Typography variant='body2' sx={{color: '#222222'}}>
+					SAP Mobile Platform
+				</Typography>
+						
 					</Grid>
+					</Grid>
+					<Grid container style={{justifyContent:'center',alignItems:'center'}} >
 					<Grid item xs={12}>
-						<Typography variant='h5' sx={{ color: '#222222' }}>
-							100k
+						<Typography variant='h6' sx={{textAlign:'center',color:'#222222'}}>
+						<center>96 K</center>	
 						</Typography>
-						<Typography variant='body2' sx={{color: '#222222'}}>SAP CE</Typography>
+						<Typography variant='body2' sx={{color: '#222222'}}>
+					SAP CE
+				</Typography>
+						</Grid>
 					</Grid>
-				</Grid>
+							
+					
+				
 			</Paper>
 		</Grid>
 	);

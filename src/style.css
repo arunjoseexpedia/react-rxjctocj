@@ -55,6 +55,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
 
 .left-middle {
@@ -63,6 +64,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+ 
 }
 
 .left-bottom {
@@ -71,6 +74,7 @@ body {
   
   justify-content: center;
   align-items: center;
+  
 }
 .filters-container{
   width: 100%;

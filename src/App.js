@@ -41,7 +41,12 @@ export default function App() {
   <div className="topbar">
     <h2>SAP App Dev Scorecard</h2>
     <div className="user-menu">
-      <span className="username">Pepsico</span>
+    <Box
+          component="img"
+          src="pepsico-logo.jpg"
+          alt="120k"
+          sx={{ height: 50, objectFit: 'contain' }}
+        />
     </div>
   </div>
 </div>
