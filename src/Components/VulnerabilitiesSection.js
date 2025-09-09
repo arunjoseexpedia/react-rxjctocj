@@ -61,44 +61,44 @@ export const VulnerabilitiesSection = () => {
         
         <Grid container spacing={2} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
           <Grid item xs={6} sx={{textAlign:'center'}}>
-            <Typography variant="body1" sx={{ color: 'black',textAlign:'center' }}>
+            <Typography variant="body1" sx={{ color: '#222222',textAlign:'center' }}>
               Custom Code Vulnerabilities
             </Typography>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: 'black' }}>
+              <Typography variant="h5" sx={{ color: '#222222' }}>
               {analyzed}
               </Typography>
-              <Typography variant="body2" sx={{ color: 'black' }}>
+              <Typography variant="body2" sx={{ color: '#222222' }}>
                 Analyzed
               </Typography>
             </Box>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: 'black' }}>
+              <Typography variant="h5" sx={{ color: '#222222' }}>
               {remediated}
               </Typography>
-              <Typography variant="body2" sx={{ color: 'black' }}>
+              <Typography variant="body2" sx={{ color: '#222222' }}>
                 Disposition/Remediated
               </Typography>
             </Box>
           </Grid>
 
           <Grid item xs={6}>
-            <Typography variant="body1" sx={{ color: 'black' }}>
+            <Typography variant="body1" sx={{ color: '#222222' }}>
               SAP Portal Vulnerabilities
             </Typography>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: 'black' }}>
+              <Typography variant="h5" sx={{ color: '#222222' }}>
                 {vulnerabilities}
               </Typography>
-              <Typography variant="body2" sx={{ color: 'black' }}>
+              <Typography variant="body2" sx={{ color: '#222222' }}>
                 Detected (Critical, High, & Medium)
               </Typography>
             </Box>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: 'black' }}>
+              <Typography variant="h5" sx={{ color: '#222222' }}>
                 5
               </Typography>
-              <Typography variant="body2" sx={{ color: 'black' }}>
+              <Typography variant="body2" sx={{ color: '#222222' }}>
                 Remaining (Low)
               </Typography>
             </Box>

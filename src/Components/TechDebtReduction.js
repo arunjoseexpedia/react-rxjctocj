@@ -16,10 +16,10 @@ const TechDebtReduction = () => {
 	return (
 		<Grid item xs={12} sx={{ height: '100%' }}>
 			<Paper elevation={6}  sx={{
-    padding: 2,
+    padding: 3,
     backgroundColor: 'white',
     borderRadius: 1.5,
-	height: '98%',
+	height: '97%',
 	width:'100%',
 	textAlign:'center'
   }}>
@@ -28,7 +28,7 @@ const TechDebtReduction = () => {
 				</Typography>
 				<Grid container style={{display: 'flex',justifyContent:'center',alignItems:'center'}} >
 					<Grid item xs={12}>
-						<Typography variant='h2' sx={{textAlign:'center',color:'black'}}>
+						<Typography variant='h2' sx={{textAlign:'center',color:'#d300ff'}}>
 						<center>{percentages[currentIndex]}%</center>	
 						</Typography>
 						

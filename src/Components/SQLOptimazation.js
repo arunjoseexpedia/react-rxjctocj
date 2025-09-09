@@ -13,46 +13,46 @@ export const SQLOptimization = () => {
 				sx={{ display: 'flex', justifyContent: 'space-between', mb: 2, gap: 2 }}
 			>
 				<Box>
-					<Typography variant='h4' sx={{ color: 'black' }}>
+					<Typography variant='h4' sx={{ color: '#222222' }}>
 						64
 					</Typography>
-					<Typography variant='body2' sx={{color: 'black'}}>Queries Analyzed</Typography>
+					<Typography variant='body2' sx={{color: '#222222'}}>Queries Analyzed</Typography>
 				</Box>
 				<Box>
-					<Typography variant='h4' sx={{ color: 'black' }}>
+					<Typography variant='h4' sx={{ color: '#222222' }}>
 						38
 					</Typography>
-					<Typography variant='body2' sx={{color: 'black'}}>Queries Dispositioned</Typography>
+					<Typography variant='body2' sx={{color: '#222222'}}>Queries Dispositioned</Typography>
 				</Box>
 				<Box>
-					<Typography variant='h4' sx={{ color: 'black' }}>
+					<Typography variant='h4' sx={{ color: '#222222' }}>
 						26
 					</Typography>
-					<Typography variant='body2' sx={{color: 'black'}}>In Progress</Typography>
+					<Typography variant='body2' sx={{color: '#222222'}}>In Progress</Typography>
 				</Box>
 				<Box>
-					<Typography variant='h4' sx={{ color: 'black' }}>
+					<Typography variant='h4' sx={{ color: '#222222' }}>
 						13
 					</Typography>
-					<Typography variant='body2' sx={{color: 'black'}}>
+					<Typography variant='body2' sx={{color: '#222222'}}>
 						High Memory/time Intensive queries optimized so far
 					</Typography>
 				</Box>
 			</Box>
 
 			<Box >
-				<Typography variant='h4' sx={{ color: 'black' }}>
+				<Typography variant='h4' sx={{ color: '#222222' }}>
 					40 K
 				</Typography>
-				<Typography variant='body2' sx={{color: 'black'}}>Memory Usage Reduction/day</Typography>
-				<Typography variant='body2' sx={{color: 'black'}}>
+				<Typography variant='body2' sx={{color: '#222222'}}>Memory Usage Reduction/day</Typography>
+				<Typography variant='body2' sx={{color: '#222222'}}>
 					GB
 				</Typography>
 			</Box>
 
 			<Box >
 				<Typography variant='h6' sx={{
-		color: 'black',
+		color: '#222222',
 		transition: 'all 0.3s ease',
 		'&:hover': {
 			fontSize: '2.5rem',
@@ -62,8 +62,8 @@ export const SQLOptimization = () => {
 	}}>
 					800 K
 				</Typography>
-				<Typography variant='body2' sx={{color: 'black'}}>Execution Time Reduction/day</Typography>
-				<Typography variant='body2' sx={{color: 'black'}}>
+				<Typography variant='body2' sx={{color: '#222222'}}>Execution Time Reduction/day</Typography>
+				<Typography variant='body2' sx={{color: '#222222'}}>
 					Seconds
 				</Typography>
 			</Box>

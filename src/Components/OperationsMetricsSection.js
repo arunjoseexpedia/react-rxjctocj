@@ -13,7 +13,7 @@ export const OperationsMetricsSection = () => {
 				<Grid item xs={6}>
 					<Box sx={{textAlign:'center'}}>
 						<Typography variant='h4'  sx={{
-		color: 'black',
+		color: '#222222',
 		transition: 'all 0.3s ease',
 		'&:hover': {
 			fontSize: '2.5rem',
@@ -23,11 +23,11 @@ export const OperationsMetricsSection = () => {
 	}}>
 							4000
 						</Typography>
-						<Typography variant='body2' sx={{color: 'black'}}>RICEFs</Typography>
+						<Typography variant='body2' sx={{color: '#222222'}}>RICEFs</Typography>
 					</Box>
 					<Box sx={{ mt: 2 }}>
 						<Typography variant='h4' sx={{
-		color: 'black',
+		color: '#222222',
 		transition: 'all 0.3s ease',
 		'&:hover': {
 			fontSize: '2.5rem',
@@ -37,13 +37,13 @@ export const OperationsMetricsSection = () => {
 	}}>
 							7000
 						</Typography>
-						<Typography variant='body2' sx={{color: 'black'}}>Retrofits</Typography>
+						<Typography variant='body2' sx={{color: '#222222'}}>Retrofits</Typography>
 					</Box>
 				</Grid>
 				<Grid item xs={6}>
 					<Box>
 						<Typography variant='h4' sx={{
-		color: 'black',
+		color: '#222222',
 		transition: 'all 0.3s ease',
 		'&:hover': {
 			fontSize: '2.5rem',
@@ -53,13 +53,13 @@ export const OperationsMetricsSection = () => {
 	}}>
 							300
 						</Typography>
-						<Typography variant='body2' sx={{color: 'black'}}>Fiori Apps</Typography>
+						<Typography variant='body2' sx={{color: '#222222'}}>Fiori Apps</Typography>
 					</Box>
 					<Box sx={{ mt: 2 }}>
 					<div style={{display:'flex'}}><Typography
 	variant='h4'
 	sx={{
-		color: 'black',
+		color: '#222222',
 		paddingLeft:'30px',
 		transition: 'all 0.3s ease',
 		'&:hover': {
@@ -70,7 +70,7 @@ export const OperationsMetricsSection = () => {
 	}}
 >
 	8000
-</Typography> <Typography variant='body2' sx={{color: 'black', paddingLeft:'11px',paddingTop:'10px'}}>
+</Typography> <Typography variant='body2' sx={{color: '#d300ff', paddingLeft:'11px',paddingTop:'10px'}}>
 							Executions
 						</Typography></div>
 						<Typography variant='body2' sx={{color: 'black'}}>Live Compare</Typography>

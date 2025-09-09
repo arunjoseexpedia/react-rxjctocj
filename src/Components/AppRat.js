@@ -16,28 +16,28 @@ const AppRat = () => {
 				<Grid container spacing={1} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
 					<Grid item xs={12}>
 						<Typography variant='h5'  sx={{
-		color: 'black',
+		color: '#222222',
 		transition: 'all 0.3s ease',
 		'&:hover': {
 			fontSize: '2.5rem',
 			cursor:'pointer',
-			color:'white' // slightly bigger on hover
+			color:'grey' // slightly bigger on hover
 		}}}>
 							220K
 						</Typography>
-						<Typography variant='body2' sx={{color: 'black'}}>Dollars savings</Typography>
+						<Typography variant='body2' sx={{color: '#222222'}}>Dollars savings</Typography>
 					</Grid>
 					<Grid item xs={12}>
-						<Typography variant='h5' sx={{ color: 'black' }}>
+						<Typography variant='h5' sx={{ color: '#222222' }}>
 							120k
 						</Typography>
-						<Typography variant='body2' sx={{color: 'black'}}>SAP Mobile Platform</Typography>
+						<Typography variant='body2' sx={{color: '#222222'}}>SAP Mobile Platform</Typography>
 					</Grid>
 					<Grid item xs={12}>
-						<Typography variant='h5' sx={{ color: 'black' }}>
+						<Typography variant='h5' sx={{ color: '#222222' }}>
 							100k
 						</Typography>
-						<Typography variant='body2' sx={{color: 'black'}}>SAP CE</Typography>
+						<Typography variant='body2' sx={{color: '#222222'}}>SAP CE</Typography>
 					</Grid>
 				</Grid>
 			</Paper>
