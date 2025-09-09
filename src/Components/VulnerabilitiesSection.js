@@ -3,9 +3,10 @@ import { Box, Paper, Typography, Grid } from '@mui/material';
 export const VulnerabilitiesSection = () => {
 	return (
 		<Grid container sx={{ width: '100%', height: '100%',padding:'.4%',borderRadius: 2 }}>
-		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center',bgcolor: '#08498D' }} >
+		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
 		<Box
       sx={{
+        
         width: '100%',
 		height: '100%',
         display: 'flex',
@@ -18,7 +19,8 @@ export const VulnerabilitiesSection = () => {
         
         sx={{
           padding: 2,
-          backgroundColor: '#08498D',
+          borderRadius: 2,
+          bgcolor: '#08498D',
           
         height: '100%',
         width:'100%',
