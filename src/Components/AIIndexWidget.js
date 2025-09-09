@@ -3,14 +3,14 @@ import { Grid, Paper, Typography } from '@mui/material';
 export const AIIndexWidget = () => {
 	return (
 		<Grid item xs={12} sx={{ height: '100%' }}>
-			<Paper sx={{ p: 5 ,bgcolor: '#0033A0', borderRadius:2,height: '84%' }}>
-				<Typography variant='h6' gutterBottom sx={{ color: '#fff',fontWeight: 900 }}>
+			<Paper sx={{ p: 5 ,bgcolor: 'white', borderRadius:2,height: '84%' }}>
+				<Typography variant='h6' gutterBottom sx={{ color: '#0033A0',fontWeight: 900 }}>
 					AI Index
 				</Typography>
 				<Grid container spacing={1}>
 					<Grid item xs={12}>
 				<Typography variant='h4'  sx={{
-		color: '#CFD8DC',
+		color: 'black',
 		transition: 'all 0.3s ease',
 		'&:hover': {
 			fontSize: '2.5rem',
@@ -21,12 +21,12 @@ export const AIIndexWidget = () => {
 				</Typography>
 				</Grid>
 					<Grid item xs={12}>
-				<Typography variant='body2' sx={{color: '#B0BEC5'}}>
+				<Typography variant='body2' sx={{color: 'black'}}>
 					Savings
 				</Typography>
 				</Grid>
 				<Grid item xs={12}>
-				<Typography variant='body2' sx={{color: '#B0BEC5'}}>AI Index</Typography>
+				<Typography variant='body2' sx={{color: 'black'}}>AI Index</Typography>
 				</Grid>
 				</Grid>
 			</Paper>

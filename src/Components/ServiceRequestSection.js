@@ -5,7 +5,7 @@ export const ServiceRequestSection = () => {
 		<Box
 		  sx={{
 			width: 240,
-			bgcolor: '#0033A0',
+			bgcolor: 'white',
 			borderRadius: 1,
 			boxShadow: 1,
 			p: 2,
@@ -14,11 +14,11 @@ export const ServiceRequestSection = () => {
 		>
 		  <Typography
 			variant="subtitle2"
-			sx={{ fontWeight: 600, color: '#fff', mb: 1 }}
+			sx={{ fontWeight: 600, color: '#0033A0', mb: 1 }}
 		  >
 			Executions Overview
 		  </Typography>
-		  <Typography variant="body2" sx={{ color: '#fff', mb: 1 }}>
+		  <Typography variant="body2" sx={{ color: 'black', mb: 1 }}>
 			Daily execution count over the last 5 days. Trending upward due to
 			increased testing activity.
 		  </Typography>
@@ -29,8 +29,8 @@ export const ServiceRequestSection = () => {
 	return (
 		<Grid container sx={{ width: '100%', height: '100%',padding:'.7%',bgColor: '#0033A0' }}>
 		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
-		<Paper elevation={4} sx={{ p: 3, bgcolor: '#0033A0',height: '90%' }}>
-			<Typography variant='h6' gutterBottom sx={{ color: '#fff',fontWeight: 900 }}>
+		<Paper elevation={4} sx={{ p: 3, bgcolor: 'white',height: '90%' }}>
+			<Typography variant='h6' gutterBottom sx={{ color: '#0033A0',fontWeight: 900 }}>
 			<Tooltip style={{cursor:'pointer'}} title={<CustomTooltipContent />}
   arrow
   placement="top"
@@ -40,24 +40,24 @@ export const ServiceRequestSection = () => {
 
 			<Grid container spacing={2} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
 				<Grid item xs={4}>
-					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
+					<Typography variant='h4' sx={{ color: 'black' }}>
 					
  	9873 
 						
 					</Typography>
-					<Typography variant='body2' sx={{color: '#B0BEC5'}}>Processed</Typography>
+					<Typography variant='body2' sx={{color: 'black'}}>Processed</Typography>
 				</Grid>
 				<Grid item xs={4}>
-					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
+					<Typography variant='h4' sx={{ color: 'black' }}>
 						98
 					</Typography>
-					<Typography variant='body2' sx={{color: '#B0BEC5'}}>In-Progress</Typography>
+					<Typography variant='body2' sx={{color: 'black'}}>In-Progress</Typography>
 				</Grid>
 				<Grid item xs={4}>
-					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
+					<Typography variant='h4' sx={{ color: 'black' }}>
 						57%
 					</Typography>
-					<Typography variant='body2' sx={{color: '#B0BEC5'}}>% Completed</Typography>
+					<Typography variant='body2' sx={{color: 'black'}}>% Completed</Typography>
 				</Grid>
 			</Grid>
 		</Paper>

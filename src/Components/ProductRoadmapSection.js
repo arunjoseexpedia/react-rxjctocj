@@ -13,19 +13,19 @@ export const ProductRoadmapSection = () => {
 	return (
 		<Grid container sx={{ width: '100%', height: '100%',padding:'.4%'  }}>
 		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
-		<Paper elevation={4} sx={{ p: 5, bgcolor: '#0033A0',borderRadius: 2  }} >
-			<Typography variant='h6' gutterBottom sx={{ color: '#fff',fontWeight: 900 }}>
+		<Paper elevation={4} sx={{ p: 5, bgcolor: 'white',borderRadius: 2  }} >
+			<Typography variant='h6' gutterBottom sx={{ color: '#0033A0',fontWeight: 900 }}>
 				Product EOL/Roadmap
 			</Typography>
 
 			<Grid container spacing={2} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
 				{roadmapItems.map((item, index) => (
 					<Grid item xs={2} key={index}>
-						<Typography variant='body1' sx={{color: '#B0BEC5'}}>{item.name}</Typography>
-						<Typography variant='h6' sx={{ color: '#CFD8DC' }}>
+						<Typography variant='body1' sx={{color: 'black'}}>{item.name}</Typography>
+						<Typography variant='h6' sx={{ color: 'black' }}>
 							{item.year}
 						</Typography>
-						<Typography variant='body2' sx={{color: '#B0BEC5'}}>
+						<Typography variant='body2' sx={{color: 'black'}}>
 							{item.type}
 						</Typography>
 					</Grid>

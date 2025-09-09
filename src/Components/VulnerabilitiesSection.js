@@ -43,7 +43,7 @@ export const VulnerabilitiesSection = () => {
         sx={{
           padding: 2,
           borderRadius: 2,
-          bgcolor: '#0033A0',
+          bgcolor: 'white',
           
         height: '100%',
         width:'100%',
@@ -54,51 +54,51 @@ export const VulnerabilitiesSection = () => {
         <Typography
           variant="h6"
           gutterBottom
-          sx={{ color: '#fff', fontWeight: 900 }}
+          sx={{ color: '#0033A0', fontWeight: 900 }}
         >
           Vulnerabilities
         </Typography>
         
         <Grid container spacing={2} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
           <Grid item xs={6} sx={{textAlign:'center'}}>
-            <Typography variant="body1" sx={{ color: '#B0BEC5',textAlign:'center' }}>
+            <Typography variant="body1" sx={{ color: 'black',textAlign:'center' }}>
               Custom Code Vulnerabilities
             </Typography>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: '#CFD8DC' }}>
+              <Typography variant="h5" sx={{ color: 'black' }}>
               {analyzed}
               </Typography>
-              <Typography variant="body2" sx={{ color: '#B0BEC5' }}>
+              <Typography variant="body2" sx={{ color: 'black' }}>
                 Analyzed
               </Typography>
             </Box>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: '#CFD8DC' }}>
+              <Typography variant="h5" sx={{ color: 'black' }}>
               {remediated}
               </Typography>
-              <Typography variant="body2" sx={{ color: '#B0BEC5' }}>
+              <Typography variant="body2" sx={{ color: 'black' }}>
                 Disposition/Remediated
               </Typography>
             </Box>
           </Grid>
 
           <Grid item xs={6}>
-            <Typography variant="body1" sx={{ color: '#B0BEC5' }}>
+            <Typography variant="body1" sx={{ color: 'black' }}>
               SAP Portal Vulnerabilities
             </Typography>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: '#CFD8DC' }}>
+              <Typography variant="h5" sx={{ color: 'black' }}>
                 {vulnerabilities}
               </Typography>
-              <Typography variant="body2" sx={{ color: '#B0BEC5' }}>
+              <Typography variant="body2" sx={{ color: 'black' }}>
                 Detected (Critical, High, & Medium)
               </Typography>
             </Box>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: '#CFD8DC' }}>
+              <Typography variant="h5" sx={{ color: 'black' }}>
                 5
               </Typography>
-              <Typography variant="body2" sx={{ color: '#B0BEC5' }}>
+              <Typography variant="body2" sx={{ color: 'black' }}>
                 Remaining (Low)
               </Typography>
             </Box>
