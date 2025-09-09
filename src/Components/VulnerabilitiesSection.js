@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 export const VulnerabilitiesSection = () => {
   const [analyzed, setAnalyzed] = useState(11000);
 	const [remediated, setRemediated] = useState(2000);
+  const [vulnerabilities,setVulnerabilities] = useState(125);
   useEffect(() => {
 		const interval = setInterval(() => {
 			// Randomize values slightly within a range
@@ -11,11 +12,15 @@ export const VulnerabilitiesSection = () => {
 				let newValue = prev + Math.floor(Math.random() * 50 - 25); // +/-25
 				return Math.max(10000, Math.min(12000, newValue)); // keep between 10k–12k
 			});
+      setVulnerabilities(prev => {
+        let newValue = prev + Math.floor(Math.random() * 20 - 10); // +/-10
+        return Math.max(100, Math.min(200, newValue)); // keep between 100–200
+      });
 			setRemediated(prev => {
 				let newValue = prev + Math.floor(Math.random() * 20 - 10); // +/-10
 				return Math.max(1500, Math.min(2500, newValue)); // keep between 1.5k–2.5k
 			});
-		}, 1000); // every 2 seconds
+		}, 2000); // every 2 seconds
 
 		return () => clearInterval(interval); // cleanup
 	}, []);
@@ -83,7 +88,7 @@ export const VulnerabilitiesSection = () => {
             </Typography>
             <Box sx={{ mt: 1 }}>
               <Typography variant="h5" sx={{ color: '#CFD8DC' }}>
-                125
+                {vulnerabilities}
               </Typography>
               <Typography variant="body2" sx={{ color: '#B0BEC5' }}>
                 Detected (Critical, High, & Medium)
