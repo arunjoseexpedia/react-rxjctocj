@@ -53,10 +53,11 @@ export const OperationsMetricsSection = () => {
 						<Typography variant='body2' sx={{color: '#B0BEC5'}}>Fiori Apps</Typography>
 					</Box>
 					<Box sx={{ mt: 2 }}>
-					<Typography
+					<div style={{display:'flex'}}><Typography
 	variant='h4'
 	sx={{
 		color: '#CFD8DC',
+		paddingLeft:'30px',
 		transition: 'all 0.3s ease',
 		'&:hover': {
 			fontSize: '2.5rem',
@@ -65,11 +66,11 @@ export const OperationsMetricsSection = () => {
 	}}
 >
 	8000
-</Typography>
-						<Typography variant='body2' sx={{color: '#B0BEC5'}}>Live Compare</Typography>
-						<Typography variant='body2' sx={{color: '#B0BEC5'}}>
+</Typography> <Typography variant='body2' sx={{color: '#F0F0F0', paddingLeft:'11px',paddingTop:'10px'}}>
 							Executions
-						</Typography>
+						</Typography></div>
+						<Typography variant='body2' sx={{color: '#B0BEC5'}}>Live Compare</Typography>
+						
 					</Box>
 				</Grid>
 			</Grid>
