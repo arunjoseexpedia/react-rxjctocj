@@ -5,7 +5,7 @@ export const ServiceRequestSection = () => {
 		<Box
 		  sx={{
 			width: 240,
-			bgcolor: '#fff',
+			bgcolor: '#0033A0',
 			borderRadius: 1,
 			boxShadow: 1,
 			p: 2,
@@ -14,11 +14,11 @@ export const ServiceRequestSection = () => {
 		>
 		  <Typography
 			variant="subtitle2"
-			sx={{ fontWeight: 600, color: '#0033A0', mb: 1 }}
+			sx={{ fontWeight: 600, color: '#fff', mb: 1 }}
 		  >
 			Executions Overview
 		  </Typography>
-		  <Typography variant="body2" sx={{ color: '#555', mb: 1 }}>
+		  <Typography variant="body2" sx={{ color: '#fff', mb: 1 }}>
 			Daily execution count over the last 5 days. Trending upward due to
 			increased testing activity.
 		  </Typography>
@@ -31,18 +31,18 @@ export const ServiceRequestSection = () => {
 		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
 		<Paper elevation={4} sx={{ p: 3, bgcolor: '#0033A0',height: '90%' }}>
 			<Typography variant='h6' gutterBottom sx={{ color: '#fff',fontWeight: 900 }}>
-				Service Now Request
+			<Tooltip style={{cursor:'pointer'}} title={<CustomTooltipContent />}
+  arrow
+  placement="top"
+  
+>	Service Now Request </Tooltip>
 			</Typography>
 
 			<Grid container spacing={2} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
 				<Grid item xs={4}>
 					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
-					<Tooltip style={{cursor:'pointer'}} title={<CustomTooltipContent />}
-  arrow
-  placement="top"
-  
->
- 	9873 </Tooltip>
+					
+ 	9873 
 						
 					</Typography>
 					<Typography variant='body2' sx={{color: '#B0BEC5'}}>Processed</Typography>
