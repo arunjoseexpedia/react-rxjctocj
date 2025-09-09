@@ -4,7 +4,7 @@ export const OperationsMetricsSection = () => {
 	return (
 		<Grid container sx={{ width: '100%', height: '100%',padding:'.7%',textAlign:'center' }}>
 		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
-		<Paper elevation={4} sx={{ p: 2,borderRadius:2, bgcolor:  '#08498D',height: '100%',textAlign:'center' }} >
+		<Paper elevation={4} sx={{ p: 2,borderRadius:2, bgcolor:  '#0033A0',height: '100%',textAlign:'center' }} >
 			<Typography variant='h6' gutterBottom sx={{ color: '#fff',fontWeight: 900 }}>
 				Operations Metrics
 			</Typography>

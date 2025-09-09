@@ -5,7 +5,7 @@ const AppRat = () => {
 		<Grid item xs={12} sx={{ height: '100%' }}>
 			<Paper sx={{
     padding: 2,
-    backgroundColor: '#08498D',
+    backgroundColor: '#0033A0',
     borderRadius: 1.5,
 	height: '98%',
 	width:'100%',

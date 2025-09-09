@@ -80,7 +80,7 @@ body {
 .topbar {
   display: flex;
   
-  background-color: #08498D;
+  background-color: #0033A0;
   justify-content: space-between;
   align-items: center;
   color: white;
@@ -101,7 +101,8 @@ body {
   align-items: center;
   height: 80px;
   width:80px;
-  border:1px solid #ccc;
+  border: 4px solid transparent; /* Needed for border-image */
+  border-image: linear-gradient(90deg, #ffffff, #ff0000, #ffffff) 1;
 }
 
 .username {

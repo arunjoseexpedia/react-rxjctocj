@@ -4,7 +4,7 @@ export const SQLOptimization = () => {
 	return (
 		<Grid container sx={{ width: '100%', height: '100%',padding:'.4%' }}>
 		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center' }} >
-		<Paper sx={{ p: 2, bgcolor: '#08498D',borderRadius: 2 }}>
+		<Paper sx={{ p: 2, bgcolor: '#0033A0',borderRadius: 2 }}>
 			<Typography variant='h6' gutterBottom sx={{ color: '#fff',fontWeight: 900 }}>
 				Expensive SQL Optimization
 			</Typography>

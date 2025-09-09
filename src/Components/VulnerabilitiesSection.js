@@ -20,7 +20,7 @@ export const VulnerabilitiesSection = () => {
         sx={{
           padding: 2,
           borderRadius: 2,
-          bgcolor: '#08498D',
+          bgcolor: '#0033A0',
           
         height: '100%',
         width:'100%',
