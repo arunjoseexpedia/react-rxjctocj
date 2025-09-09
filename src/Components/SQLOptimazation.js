@@ -56,7 +56,8 @@ export const SQLOptimization = () => {
 		transition: 'all 0.3s ease',
 		'&:hover': {
 			fontSize: '2.5rem',
-			cursor:'pointer' // slightly bigger on hover
+			cursor:'pointer',
+			color:'white' // slightly bigger on hover
 		},
 	}}>
 					800 K

@@ -15,7 +15,14 @@ const AppRat = () => {
 				</Typography>
 				<Grid container spacing={1} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
 					<Grid item xs={12}>
-						<Typography variant='h5' sx={{ color: '#CFD8DC' }}>
+						<Typography variant='h5'  sx={{
+		color: '#CFD8DC',
+		transition: 'all 0.3s ease',
+		'&:hover': {
+			fontSize: '2.5rem',
+			cursor:'pointer',
+			color:'white' // slightly bigger on hover
+		}}}>
 							220K
 						</Typography>
 						<Typography variant='body2' sx={{color: '#B0BEC5'}}>Dollars savings</Typography>
