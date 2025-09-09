@@ -16,7 +16,7 @@ const AppRat = () => {
 				</Typography>
 				<Grid container style={{justifyContent:'center',alignItems:'center'}} >
 					<Grid item xs={12}>
-						<Typography variant='h6' sx={{textAlign:'center',color:'#222222'}}>
+						<Typography variant='h6' sx={{textAlign:'center',color:'#00000066'}}>
 						<center>241 K</center>	
 						</Typography>
 						<Typography variant='body2' sx={{color: '#222222'}}>
@@ -27,7 +27,7 @@ const AppRat = () => {
 					<Grid container style={{justifyContent:'center',alignItems:'center'}} >
 					<Grid item xs={12}>
 					
-						<Typography variant='h6' sx={{textAlign:'center',color:'#222222'}}>
+						<Typography variant='h6' sx={{textAlign:'center',color:'#00000066'}}>
 						<center>110 K</center>	
 						</Typography>
 						<Typography variant='body2' sx={{color: '#222222'}}>
@@ -38,7 +38,7 @@ const AppRat = () => {
 					</Grid>
 					<Grid container style={{justifyContent:'center',alignItems:'center'}} >
 					<Grid item xs={12}>
-						<Typography variant='h6' sx={{textAlign:'center',color:'#222222'}}>
+						<Typography variant='h6' sx={{textAlign:'center',color:'#00000066'}}>
 						<center>96 K</center>	
 						</Typography>
 						<Typography variant='body2' sx={{color: '#222222'}}>

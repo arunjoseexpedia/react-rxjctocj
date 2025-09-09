@@ -65,7 +65,7 @@ export const VulnerabilitiesSection = () => {
               Custom Code Vulnerabilities
             </Typography>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: '#222222' }}>
+              <Typography variant="h5" sx={{ color: '#00000066' }}>
               {analyzed}
               </Typography>
               <Typography variant="body2" sx={{ color: '#222222' }}>
@@ -73,21 +73,21 @@ export const VulnerabilitiesSection = () => {
               </Typography>
             </Box>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: '#222222' }}>
+              <Typography variant="h5" sx={{ color: '#00000066' }}>
               {remediated}
               </Typography>
-              <Typography variant="body2" sx={{ color: '#222222' }}>
+              <Typography variant="body2" sx={{ color: '#2c2c2c' }}>
                 Disposition/Remediated
               </Typography>
             </Box>
           </Grid>
 
           <Grid item xs={6}>
-            <Typography variant="body1" sx={{ color: '#222222' }}>
+            <Typography variant="body1" sx={{ color: '#333333' }}>
               SAP Portal Vulnerabilities
             </Typography>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: '#222222' }}>
+              <Typography variant="h5" sx={{ color: '#00000066' }}>
                 {vulnerabilities}
               </Typography>
               <Typography variant="body2" sx={{ color: '#222222' }}>
@@ -95,7 +95,7 @@ export const VulnerabilitiesSection = () => {
               </Typography>
             </Box>
             <Box sx={{ mt: 1 }}>
-              <Typography variant="h5" sx={{ color: '#222222' }}>
+              <Typography variant="h5" sx={{ color: '#00000066' }}>
                 5
               </Typography>
               <Typography variant="body2" sx={{ color: '#222222' }}>
