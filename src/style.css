@@ -118,7 +118,7 @@ body {
   background-color: white;
   width:80px;
   border: 4px solid transparent; /* Needed for border-image */
-  border-image: linear-gradient(90deg, #ffffff, #E30613, #ffffff) 1;
+  border-image: linear-gradient(90deg, #ffffff,#df00ff, #ffffff) 1;
 }
 
 .username {
