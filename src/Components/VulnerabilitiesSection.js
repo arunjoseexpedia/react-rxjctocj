@@ -2,7 +2,7 @@ import { Box, Paper, Typography, Grid } from '@mui/material';
 
 export const VulnerabilitiesSection = () => {
 	return (
-		<Grid container sx={{ width: '100%', height: '100%',padding:'.4%', }}>
+		<Grid container sx={{ width: '100%', height: '100%',padding:'.4%',borderRadius: 2 }}>
 		<Grid item xs={12} sx={{ width: '100%', height: '100%',textAlign:'center',bgcolor: '#08498D' }} >
 		<Box
       sx={{
@@ -17,10 +17,13 @@ export const VulnerabilitiesSection = () => {
       <Paper
         
         sx={{
-          p: 3,
-          bgcolor: '#08498D',
-          width: '100%',
-          maxWidth: 600, // ✅ Optional: prevent it from being too wide
+          padding: 2,
+          backgroundColor: '#08498D',
+          
+        height: '100%',
+        width:'100%',
+        textAlign:'center'
+          // ✅ Optional: prevent it from being too wide
         }}
       >
         <Typography
@@ -30,10 +33,10 @@ export const VulnerabilitiesSection = () => {
         >
           Vulnerabilities
         </Typography>
-
-        <Grid container spacing={2}>
-          <Grid item xs={6}>
-            <Typography variant="body1" sx={{ color: '#B0BEC5' }}>
+        
+        <Grid container spacing={2} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
+          <Grid item xs={6} sx={{textAlign:'center'}}>
+            <Typography variant="body1" sx={{ color: '#B0BEC5',textAlign:'center' }}>
               Custom Code Vulnerabilities
             </Typography>
             <Box sx={{ mt: 1 }}>
@@ -75,7 +78,7 @@ export const VulnerabilitiesSection = () => {
               </Typography>
             </Box>
           </Grid>
-        </Grid>
+          </Grid>
       </Paper>
     </Box>
 	</Grid>

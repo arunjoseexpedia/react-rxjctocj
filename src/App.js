@@ -41,7 +41,7 @@ export default function App() {
   <div className="topbar">
     <h2>SAP App Dev Scorecard</h2>
     <div className="user-menu">
-      <span className="username">Arun</span>
+      <span className="username">Pepsico</span>
     </div>
   </div>
 </div>

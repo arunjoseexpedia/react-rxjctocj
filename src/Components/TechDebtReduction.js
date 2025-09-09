@@ -3,14 +3,21 @@ import { Grid, Paper, Typography } from '@mui/material';
 const TechDebtReduction = () => {
 	return (
 		<Grid item xs={12} sx={{ height: '100%' }}>
-			<Paper sx={{ p: 7,bgcolor: '#08498D' }}>
+			<Paper elevation={6}  sx={{
+    padding: 2,
+    backgroundColor: '#08498D',
+    borderRadius: 1.5,
+	height: '98%',
+	width:'100%',
+	textAlign:'center'
+  }}>
 				<Typography variant='h6' gutterBottom sx={{ color: '#fff',fontWeight: 900 }}>
 					Tech Debt Reduction
 				</Typography>
 				<Grid container >
 					<Grid item xs={12}>
 						<Typography variant='h2' sx={{textAlign:'center',color:'#CFD8DC'}}>
-							25%
+						<center>25%</center>	
 						</Typography>
 						
 					</Grid>
