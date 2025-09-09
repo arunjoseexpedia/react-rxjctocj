@@ -51,7 +51,14 @@ export const SQLOptimization = () => {
 			</Box>
 
 			<Box >
-				<Typography variant='h6' sx={{ color: '#CFD8DC' }}>
+				<Typography variant='h6' sx={{
+		color: '#CFD8DC',
+		transition: 'all 0.3s ease',
+		'&:hover': {
+			fontSize: '2.5rem',
+			cursor:'pointer' // slightly bigger on hover
+		},
+	}}>
 					800 K
 				</Typography>
 				<Typography variant='body2' sx={{color: '#B0BEC5'}}>Execution Time Reduction/day</Typography>

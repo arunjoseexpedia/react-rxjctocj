@@ -12,13 +12,27 @@ export const OperationsMetricsSection = () => {
 			<Grid container spacing={2} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
 				<Grid item xs={6}>
 					<Box sx={{textAlign:'center'}}>
-						<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
+						<Typography variant='h4'  sx={{
+		color: '#CFD8DC',
+		transition: 'all 0.3s ease',
+		'&:hover': {
+			fontSize: '2.5rem',
+			cursor:'pointer' // slightly bigger on hover
+		},
+	}}>
 							4000
 						</Typography>
 						<Typography variant='body2' sx={{color: '#B0BEC5'}}>RICEFs</Typography>
 					</Box>
 					<Box sx={{ mt: 2 }}>
-						<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
+						<Typography variant='h4' sx={{
+		color: '#CFD8DC',
+		transition: 'all 0.3s ease',
+		'&:hover': {
+			fontSize: '2.5rem',
+			cursor:'pointer' // slightly bigger on hover
+		},
+	}}>
 							7000
 						</Typography>
 						<Typography variant='body2' sx={{color: '#B0BEC5'}}>Retrofits</Typography>
@@ -26,15 +40,32 @@ export const OperationsMetricsSection = () => {
 				</Grid>
 				<Grid item xs={6}>
 					<Box>
-						<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
+						<Typography variant='h4' sx={{
+		color: '#CFD8DC',
+		transition: 'all 0.3s ease',
+		'&:hover': {
+			fontSize: '2.5rem',
+			cursor:'pointer' // slightly bigger on hover
+		},
+	}}>
 							300
 						</Typography>
 						<Typography variant='body2' sx={{color: '#B0BEC5'}}>Fiori Apps</Typography>
 					</Box>
 					<Box sx={{ mt: 2 }}>
-						<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
-							8000
-						</Typography>
+					<Typography
+	variant='h4'
+	sx={{
+		color: '#CFD8DC',
+		transition: 'all 0.3s ease',
+		'&:hover': {
+			fontSize: '2.5rem',
+			cursor:'pointer' // slightly bigger on hover
+		},
+	}}
+>
+	8000
+</Typography>
 						<Typography variant='body2' sx={{color: '#B0BEC5'}}>Live Compare</Typography>
 						<Typography variant='body2' sx={{color: '#B0BEC5'}}>
 							Executions
