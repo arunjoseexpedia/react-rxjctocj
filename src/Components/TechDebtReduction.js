@@ -18,7 +18,7 @@ const TechDebtReduction = () => {
 			<Paper elevation={6}  sx={{
     padding: 3,
     backgroundColor: 'white',
-    borderRadius: 1.5,
+    borderRadius: 2,
 	height: '97%',
 	width:'100%',
 	textAlign:'center'

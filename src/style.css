@@ -27,7 +27,7 @@ body {
 }
 .filters {
   display: flex;
-  margin-top: 3.5%;
+  margin-top: 3.8%;
   height: 100vh;
   width: 100%;
   
@@ -115,6 +115,7 @@ body {
   justify-content: center; /* horizontal centering */
   align-items: center;
   height: 80px;
+  background-color: white;
   width:80px;
   border: 4px solid transparent; /* Needed for border-image */
   border-image: linear-gradient(90deg, #ffffff, #E30613, #ffffff) 1;
@@ -125,6 +126,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   font-family: sans-serif;
+  color:#0033A0;
 }
 .dropdown button {
   background: none;
