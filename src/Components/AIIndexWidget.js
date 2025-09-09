@@ -3,7 +3,7 @@ import { Grid, Paper, Typography } from '@mui/material';
 export const AIIndexWidget = () => {
 	return (
 		<Grid item xs={12} sx={{ height: '100%' }}>
-			<Paper sx={{ p: 5 ,bgcolor: '#0033A0', borderRadius:2,height: '88%' }}>
+			<Paper sx={{ p: 5 ,bgcolor: '#0033A0', borderRadius:2,height: '84%' }}>
 				<Typography variant='h6' gutterBottom sx={{ color: '#fff',fontWeight: 900 }}>
 					AI Index
 				</Typography>

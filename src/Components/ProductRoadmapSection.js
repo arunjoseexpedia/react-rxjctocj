@@ -18,7 +18,7 @@ export const ProductRoadmapSection = () => {
 				Product EOL/Roadmap
 			</Typography>
 
-			<Grid container spacing={2}>
+			<Grid container spacing={2} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
 				{roadmapItems.map((item, index) => (
 					<Grid item xs={2} key={index}>
 						<Typography variant='body1' sx={{color: '#B0BEC5'}}>{item.name}</Typography>
