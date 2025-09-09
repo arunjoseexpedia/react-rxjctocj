@@ -106,6 +106,7 @@ body {
 
 .username {
   padding: 0.5rem;
+  font-weight: 600;
 }
 .dropdown button {
   background: none;
