@@ -9,7 +9,7 @@ export const ServiceRequestSection = () => {
 				Service Now Request
 			</Typography>
 
-			<Grid container spacing={2}>
+			<Grid container spacing={2} style={{display: 'flex',justifyContent:'center',alignItems:'center'}}>
 				<Grid item xs={4}>
 					<Typography variant='h4' sx={{ color: '#CFD8DC' }}>
 						9873
