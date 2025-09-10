@@ -21,12 +21,12 @@ export const AIIndexWidget = () => {
 				</Typography>
 				</Grid>
 					<Grid item xs={12}>
-				<Typography variant='body2' sx={{color: '#222222'}}>
-					Savings
-				</Typography>
+				
 				</Grid>
-				<Grid item xs={12}>
-				<Typography variant='body2' sx={{color: '#222222'}}>AI Index</Typography>
+				<Grid item xs={12}><div style={{display:'flex'}}>
+				<Typography variant='body2' sx={{color: '#222222'}}>AI Index</Typography><Typography variant='body2' sx={{color: '#E30B5C', paddingLeft:'11px',paddingTop:'0px'}}>
+						<b><i>	Savings </i></b>
+						</Typography></div>
 				</Grid>
 				</Grid>
 			</Paper>

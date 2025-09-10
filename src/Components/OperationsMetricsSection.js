@@ -71,7 +71,7 @@ export const OperationsMetricsSection = () => {
 >
 	8000
 </Typography> <Typography variant='body2' sx={{color: '#E30B5C', paddingLeft:'11px',paddingTop:'10px'}}>
-							Executions
+						<b><i>	Executions </i> </b>
 						</Typography></div>
 						<Typography variant='body2' sx={{color: 'black'}}>Live Compare</Typography>
 						
